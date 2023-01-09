@@ -1,0 +1,43 @@
+.topo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: cornflowerblue;
+}
+.navegacao > ul {
+  display: flex;
+}
+.navegacao ul > li {
+  padding-left: 40px;
+}
+/* inicio do main */
+.principal {
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+
+  background-color: gray;
+}
+.principal figure > img {
+  border-radius: 100%;
+  height: 300px;
+}
+.rede-social {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  background-color: turquoise;
+}
+.rede-social, img{
+    height: 26px;
+    gap: 10px;
+}
+.botao-verde{
+
+}
+.botao-cinza{
+    
+}
