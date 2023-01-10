@@ -1,5 +1,6 @@
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap");
 /* header */
 .topo {
   display: flex;
@@ -7,9 +8,9 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 25px;
+  font-family: "Fira Code", monospace;
 }
 .topo h1 {
-  font-family: "Bakbak One", cursive;
   line-height: 30px;
   text-transform: uppercase;
   font-size: 25px;
@@ -32,42 +33,85 @@
 .navegacao img {
   height: 16px;
 }
-.navegacao :hover{
-    color: #00a3ff;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-    transition: 0.5s;
+.navegacao :hover {
+  color: #00a3ff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
 }
-i, .fa-solid{
-    transition: 0.7s;
+i,
+.fa-solid {
+  transition: 0.7s;
 }
 /* inicio do main */
-.principal {
-  width: 850px;
+main {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+}
+.principal {
+  width: 900px;
   margin-top: 100px;
-
-  background-color: gray;
+  font-family: "Fira Code", monospace;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 .principal figure > img {
   border-radius: 100%;
   height: 300px;
+  margin-right: 50px;
+}
+.descricao p {
+  text-align: left;
+}
+.descricao .ola {
+  text-transform: uppercase;
 }
 .rede-social {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
-  background-color: turquoise;
+  margin-bottom: 20px;
 }
-.rede-social,
-img {
-  height: 26px;
-  gap: 10px;
+.rede-social, a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
 }
-.botao-verde {
+.fa-brands {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 20px;
+  text-align: start;
+  transition: 1s;
+}
+.rede-social :hover {
+  color: #00a3ff;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -o-transition: 0.8;
+  -ms-transition: 0.8s;
+  transition: 0.8s;
 }
 .botao-cinza {
+    background-color: #808080;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    font-family:'Fira Code', monospace;
+}
+.botao-azul {
+    background-color: #00a3ff;
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    font-family:'Fira Code', monospace;
+}
+ .fa-sharp{
+    color: #fff;
+}
+.fa-solid{
+    color: #fff;
 }
