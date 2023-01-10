@@ -34,6 +34,14 @@
 }
 .navegacao :hover{
     color: #00a3ff;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+i, .fa-solid{
+    transition: 0.7s;
 }
 /* inicio do main */
 .principal {
