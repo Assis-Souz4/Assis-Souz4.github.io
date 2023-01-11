@@ -39,7 +39,7 @@
   height: 100%;
   left: 0;
   border-left: 2px solid #fff;
-  animation: typing 1.5s steps(15) infinite;
+  animation: typing 1.9s steps(15) infinite;
   background: #000000;
 }
 .dinamico li span {
@@ -114,7 +114,6 @@ main {
 }
 .ola {
   text-transform: uppercase;
-  margin-bottom: 30px;
   font-size: 20px;
 }
 .perfil-01 {
