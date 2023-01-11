@@ -1,6 +1,3 @@
-/* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap");
 /* header */
 .topo {
   display: flex;
@@ -8,7 +5,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 25px;
-  font-family: "Fira Code", monospace;
+  font-family: "Font Awesome 5 Free", Arial, Helvetica, sans-serif;
 }
 .topo h1 {
   line-height: 30px;
@@ -23,15 +20,8 @@
   line-height: 30px;
 }
 .navegacao ul li a {
-  font-family: "Bakbak One", cursive;
   padding-right: 40px;
   color: #fff;
-}
-.navegacao ul li a img {
-  margin-right: 12px;
-}
-.navegacao img {
-  height: 16px;
 }
 .navegacao :hover {
   color: #00a3ff;
@@ -41,11 +31,15 @@
   -ms-transition: 0.5s;
   transition: 0.5s;
 }
-i,
-.fa-solid {
+i .fa-solid {
   transition: 0.7s;
+  font-size: 15px;
 }
 /* inicio do main */
+bady{
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    height: 100vh;
+}
 main {
   display: flex;
   justify-content: center;
@@ -53,7 +47,6 @@ main {
 .principal {
   width: 900px;
   margin-top: 100px;
-  font-family: "Fira Code", monospace;
   display: flex;
   align-items: center;
   color: #fff;
@@ -66,24 +59,31 @@ main {
 .descricao p {
   text-align: left;
 }
-.descricao .ola {
+.ola {
   text-transform: uppercase;
 }
-.rede-social {
-  display: flex;
-  flex-direction: row;
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-.rede-social, a{
-    color: #fff;
+.perfil-01{
+    word-spacing: 2.5px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    font-size: 30px;
     text-transform: uppercase;
-    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+.perfil-02{
+    word-spacing: 2.5px;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+    font-size: 12px;
+}
+.rede-social,
 .fa-brands {
+  /* icones das redes sociais */
   font-size: 20px;
   color: #fff;
   margin-right: 20px;
+  margin-top: 10px;
   text-align: start;
   transition: 1s;
 }
@@ -95,23 +95,34 @@ main {
   -ms-transition: 0.8s;
   transition: 0.8s;
 }
+/* botões */
 .botao-cinza {
-    background-color: #808080;
-    height: 60px;
-    width: 220px;
-    border-radius: 30px;
-    font-family:'Fira Code', monospace;
+  background-color: #808080;
+  height: 60px;
+  width: 250px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  word-spacing: 5px;
+  letter-spacing: 0.5px;
 }
 .botao-azul {
-    background-color: #00a3ff;
-    height: 60px;
-    width: 220px;
-    border-radius: 30px;
-    font-family:'Fira Code', monospace;
+  background-color: #00a3ff;
+  height: 60px;
+  width: 220px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  word-spacing: 5px;
+  letter-spacing: 0.5px;
 }
- .fa-sharp{
-    color: #fff;
+.fa-sharp {
+  color: #fff;
 }
-.fa-solid{
-    color: #fff;
+.fa-solid {
+  color: #fff;
 }
