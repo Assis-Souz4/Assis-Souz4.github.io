@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@200;400&display=swap");
 /* texto aninhado */
 .conteiner {
   display: inline-flex;
@@ -32,15 +31,15 @@
     top: -360px;
   }
 }
-.dinamico li span::after {
+.dinamico li  span::after {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   border-left: 2px solid #fff;
-  animation: typing 1.9s steps(15) infinite;
-  background: #000000;
+  animation: typing 1.5s steps(10) infinite;
+  background: #111;
 }
 .dinamico li span {
   position: relative;
@@ -86,14 +85,14 @@
   -ms-transition: 0.5s;
   transition: 0.5s;
 }
-i .fa-solid {
+a {
   transition: 0.7s;
   font-size: 15px;
 }
 /* inicio do main */
 body {
   height: 100vh;
-  background-color: #000000;
+  background-color: #111;
 }
 main {
   display: flex;
@@ -162,6 +161,8 @@ main {
   flex-wrap: wrap;
   word-spacing: 5px;
   letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 14px;
 }
 .botao-azul {
   background-color: #00a3ff;
@@ -173,6 +174,8 @@ main {
   border: none;
   word-spacing: 5px;
   letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 14px;
 }
 .fa-sharp {
   color: #fff;
